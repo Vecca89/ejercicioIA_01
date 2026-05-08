@@ -5,4 +5,4 @@ ciudad o destino de viaje favorito. En algún lugar de la página web deberá ap
 (iniciales) o nombre completo del alumn@. Se puede elegir cualquier plantilla o estilo de diseño, 
 incluir fotografías, añadir enlaces o cualquier aspecto a considerar. 
 
-Y he elegido Salamanca.  Se va a mostrar donde esta, habla de sus monumentos y sus comidas
+Y he elegido Salamanca.  Se va a mostrar donde está, habla de sus monumentos, su universidad y sus platos típicos
