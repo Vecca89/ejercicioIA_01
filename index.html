@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salamanca: Ciudad de Oro y Sabiduría</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Una breve presentación de la histórica ciudad de Salamanca: su ubicación, monumentos, universidad y gastronomía.">
+    <meta name="theme-color" content="#1b4332">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data:; script-src 'self'; frame-src https://www.google.com;">
+</head>
+
+<body class="page">
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    <header class="header">
+        <nav class="lang-switcher" aria-label="Selección de idioma">
+            <a href="index.html" class="lang-switcher__link lang-switcher__link--active" aria-current="page">ES</a>
+            <a href="index-en.html" class="lang-switcher__link">EN</a>
+            <a href="index-fr.html" class="lang-switcher__link">FR</a>
+        </nav>
+        <h1 class="header__title">Salamanca</h1>
+        <p class="header__subtitle">Patrimonio de la Humanidad y Ciudad del Conocimiento</p>
+    </header>
+
+    <main class="main" id="main-content">
+        <!-- Sección 1: Ubicación y Mapa -->
+        <section class="section section--location" aria-labelledby="title-location">
+            <h2 id="title-location" class="section__title">¿Dónde se encuentra?</h2>
+            <div class="section__content">
+                <p class="section__text">
+                    Salamanca se sitúa en el oeste de España, en la comunidad autónoma de Castilla y León. Es la capital
+                    de la provincia homónima y se asienta a orillas del río Tormes, en un entorno mesetario que le
+                    otorga su característico clima y luz.
+                </p>
+                <div class="section__media">
+                    <img src="img/mapa_estilo.png" alt="Mapa artístico de Salamanca con la Plaza Mayor, Catedral y Universidad marcadas, basado en geografía real" class="section__image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 2: Monumentos -->
+        <section class="section section--monuments" aria-labelledby="title-monuments">
+            <h2 id="title-monuments" class="section__title">Monumentos Imprescindibles</h2>
+            <div class="section__content">
+                <p class="section__text">
+                    Conocida como la "Ciudad Dorada" por el tono de la piedra de Villamayor, Salamanca alberga algunos
+                    de los monumentos más bellos de España.
+                </p>
+                <div class="grid">
+                    <div class="grid__item">
+                        <img src="img/plaza_mayor.png"
+                            alt="La majestuosa Plaza Mayor de Salamanca con su arquitectura barroca"
+                            class="grid__image">
+                        <p class="grid__caption">Plaza Mayor: El corazón de la ciudad.</p>
+                    </div>
+                    <div class="grid__item">
+                        <img src="img/catedral.png"
+                            alt="Vista de la Catedral Nueva y el Puente Romano sobre el río Tormes al atardecer"
+                            class="grid__image">
+                        <p class="grid__caption">La Catedral: Un conjunto arquitectónico único.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 3: Ciudad Universitaria -->
+        <section class="section section--university" aria-labelledby="title-university">
+            <h2 id="title-university" class="section__title">Alma Mater: Ciudad Universitaria</h2>
+            <div class="section__content">
+                <p class="section__text">
+                    La Universidad de Salamanca es una de las más antiguas del mundo. Fundada en 1218 por Alfonso IX de
+                    León, ha sido durante siglos un faro de conocimiento que atrae a estudiantes de todos los rincones
+                    del planeta, dando a la ciudad una atmósfera vibrante y joven.
+                </p>
+                <div class="section__action">
+                    <a href="https://www.usal.es" target="_blank" rel="noopener noreferrer" class="button">Visitar la
+                        web de la USAL</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 4: Gastronomía -->
+        <section class="section section--food" aria-labelledby="title-food">
+            <h2 id="title-food" class="section__title">Sabores Salmantinos</h2>
+            <div class="section__content">
+                <p class="section__text">
+                    La gastronomía de Salamanca es rica, contundente y llena de tradición. Destacan productos derivados
+                    del cerdo ibérico y platos que reconfortan el alma.
+                </p>
+                <ul class="list">
+                    <li class="list__item"><strong>Hornazo:</strong> Empanada rellena de lomo, jamón y chorizo.</li>
+                    <li class="list__item"><strong>Chanfaina:</strong> Arroz con sangre, trozos de cordero y especias.
+                    </li>
+                    <li class="list__item"><strong>Farinato:</strong> Embutido típico de Ciudad Rodrigo, hecho con pan y
+                        grasa.</li>
+                </ul>
+                <div class="section__media">
+                    <img src="img/gastronomia.png" alt="Collage de platos típicos: Hornazo, Chanfaina y Farinato"
+                        class="section__image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Hecha por Carmen Blanco Sánchez</p>
+    </footer>
+</body>
+
+</html>
