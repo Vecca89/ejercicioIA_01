@@ -103,12 +103,36 @@
                     <img src="img/gastronomia.png" alt="Collage de plats typiques : Hornazo, Chanfaina et Farinato" class="section__image">
                 </div>
             </div>
+        <!-- Section 5: Contact -->
+        <section class="section section--contact" aria-labelledby="title-contact">
+            <h2 id="title-contact" class="section__title">Demander des Informations</h2>
+            <div class="section__content">
+                <p class="section__text section__text--center">
+                    Vous voulez en savoir plus sur Salamanca ? Laissez-nous vos coordonnées et nous vous contacterons.
+                </p>
+                <form action="#" method="POST" class="form">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Nom complet</label>
+                        <input type="text" id="name" name="name" class="form__input" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Adresse e-mail</label>
+                        <input type="email" id="email" name="email" class="form__input" placeholder="vous@email.com" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="message" class="form__label">Message ou demande</label>
+                        <textarea id="message" name="message" class="form__input form__input--textarea" placeholder="Comment pouvons-nous vous aider ?" required></textarea>
+                    </div>
+                    <button type="submit" class="button button--wide">Envoyer la demande</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
         <p class="footer__text">Fait par Carmen Blanco Sánchez</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

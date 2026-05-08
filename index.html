@@ -104,12 +104,36 @@
                         class="section__image">
                 </div>
             </div>
+        <!-- Sección 5: Contacto -->
+        <section class="section section--contact" aria-labelledby="title-contact">
+            <h2 id="title-contact" class="section__title">Solicitar Información</h2>
+            <div class="section__content">
+                <p class="section__text section__text--center">
+                    ¿Quieres saber más sobre Salamanca? Déjanos tus datos y nos pondremos en contacto contigo.
+                </p>
+                <form action="#" method="POST" class="form">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Nombre completo</label>
+                        <input type="text" id="name" name="name" class="form__input" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Correo electrónico</label>
+                        <input type="email" id="email" name="email" class="form__input" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="message" class="form__label">Mensaje o consulta</label>
+                        <textarea id="message" name="message" class="form__input form__input--textarea" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                    </div>
+                    <button type="submit" class="button button--wide">Enviar solicitud</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
         <p class="footer__text">Hecha por Carmen Blanco Sánchez</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

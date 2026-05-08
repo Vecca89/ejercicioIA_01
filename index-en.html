@@ -103,12 +103,36 @@
                         class="section__image">
                 </div>
             </div>
+        <!-- Section 5: Contact -->
+        <section class="section section--contact" aria-labelledby="title-contact">
+            <h2 id="title-contact" class="section__title">Request Information</h2>
+            <div class="section__content">
+                <p class="section__text section__text--center">
+                    Want to know more about Salamanca? Leave us your details and we will get in touch with you.
+                </p>
+                <form action="#" method="POST" class="form">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form__input" placeholder="Your name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form__input" placeholder="you@email.com" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="message" class="form__label">Message or inquiry</label>
+                        <textarea id="message" name="message" class="form__input form__input--textarea" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="button button--wide">Send request</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
         <p class="footer__text">Made by Carmen Blanco Sánchez</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
